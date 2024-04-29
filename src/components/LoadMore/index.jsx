@@ -16,10 +16,10 @@ function LoadMore({url, limit=20, skip=20}){
             if (result && result.products && result.products.length) {
                 setProducts((prevData) => {
                     // Filter out products from prevData that are not present in result.products
-                    const filteredPrevData = prevData.filter((prevProduct) => !result.products.some((newProduct) => newProduct.id === prevProduct.id));
+                    // const filteredPrevData = prevData.filter((prevProduct) => !result.products.some((newProduct) => newProduct.id === prevProduct.id));
 
                     // Concatenate the filtered prevData with result.products
-                    return [...filteredPrevData, ...result.products];
+                    return [...prevData, ...result.products];
                 });
             }
             setLoading(false);
