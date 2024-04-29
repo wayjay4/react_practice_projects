@@ -3,6 +3,7 @@ import Accordion from "./components/Accordion";
 import RandomColor from "./components/RandomColor";
 import StarRating from "./components/StarRating";
 import ImageSlider from "./components/ImageSlider";
+import LoadMore from "./components/LoadMore";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
           {/*<Accordion />*/}
           {/*<RandomColor />*/}
           {/*<StarRating numberOfStars={10} />*/}
-          <ImageSlider url={"https://picsum.photos/v2/list"} page={1} limit={10} />
+          {/*<ImageSlider url={"https://picsum.photos/v2/list"} page={1} limit={10} />*/}
+          <LoadMore url={"https://dummyjson.com/products"} limit={20} skip={20} />
       </div>
   );
 }
