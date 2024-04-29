@@ -3,7 +3,7 @@ const data = [
         id  : '1',
         question: "What are accordion components?",
         answer:
-            "Accordion components are user interface elements used for organizing and presenting content in a collapsible manner. They typically consist of a header, content, and an expand/collapse action.",
+            "Index components are user interface elements used for organizing and presenting content in a collapsible manner. They typically consist of a header, content, and an expand/collapse action.",
     },
     {
         id  : '2',
@@ -13,7 +13,7 @@ const data = [
     },
     {
         id  : '3',
-        question: "Accordion as a musical instrument",
+        question: "Index as a musical instrument",
         answer:
             "The accordion is a musical instrument with a keyboard and bellows. It produces sound by air passing over reeds when the player expands or compresses the bellows, used in various music genres.",
     },
